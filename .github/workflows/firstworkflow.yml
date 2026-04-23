@@ -15,7 +15,9 @@ jobs:
       run:
         working-directory: backend
     steps:
-      - name: Install Dependencies
+      - name: Repo Clone
+        uses: actions/cheakout@v4
+      - name: Install dependencies
         run: npm ci
   second-job:
     runs-on: ubuntu-latest
