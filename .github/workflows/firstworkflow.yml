@@ -11,9 +11,9 @@ jobs:
         run: |
           node -v
           npm -v
-s-jobs:
-  run-shell-commands:
-    runs-on: ubuntu-latest
-    steps:
-      - name: echo printing my name
-        run: echo "My name is Gautam Jha"
+  s-jobs:
+    run-shell-commands:
+      runs-on: ubuntu-latest
+      steps:
+        - name: echo printing my name
+          run: echo "My name is Gautam Jha"
