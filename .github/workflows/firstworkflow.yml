@@ -11,7 +11,7 @@ jobs:
         run: |
           node -v
           npm -v
-jobs:
+s-jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
